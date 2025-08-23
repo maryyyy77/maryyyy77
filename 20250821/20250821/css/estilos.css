@@ -1,0 +1,81 @@
+body{
+    background-color: #88ecfd;
+    color: rgb(173, 185, 185);
+}
+
+.estilo-header{
+    background-image: url(../images/programador.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+}
+
+h1{
+    font-size: 40px;
+
+}
+h2{
+    font-size: larger;
+}
+
+h3{
+    font-size: small;
+}
+
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: initial;
+}
+
+#logo img{
+    background-color: rgb(92, 104, 209);
+    border-radius: 30%;
+    display: block;
+    margin-left: auto;
+}
+
+.redes-sociales{ 
+    display: flex;
+    justify-content: right;
+
+
+}
+
+.redes-sociales i{
+
+    background-color: rgb(91, 83, 209);
+}
+.navegacion ul{
+    display: flex;
+    justify-content: center;
+    font-size: 30px
+    list-style: none;
+}
+
+.navegacion a{
+    display: flex;
+    color: rgb(136, 126, 114);
+    text-shadow:  10px 10px rgb(56, 71, 206);
+    text-decoration: #5d97a1;
+}
+.navegacion ul {
+    display: flex;
+    justify-content: center; /* centra los enlaces */
+    list-style: none;
+    gap: 30px; /* espacio entre enlaces */
+}
+
+.navegacion a {
+    font-size: 20px;
+    color: rgb(136, 126, 114);
+    text-decoration: #5d97a1; 
+    text-shadow: 2px 2px 5px rgba(56, 71, 206, 0.8); 
+    transition: all 0.3s ease;
+}
+
+.navegacion a:hover {
+    color: rgb(68, 121, 165);
+    transform: scale(1.1); 
+    text-shadow: 4px 4px 8px rgba(56, 71, 206, 1);
+}
