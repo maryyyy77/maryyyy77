@@ -1,0 +1,32 @@
+.bg-primary{
+    background-color: #419a1c !important;
+}
+
+.bg-secondary{
+    background-color: #384452 !important;
+}
+
+#barra-redes i{
+    color: #BBFF9C !important;
+}
+.text-success{
+    color: #BBFF9C !important;
+}
+
+#datos-generales i{
+     color: #BBFF9C !important;
+}
+
+
+
+
+
+
+
+
+.fondo-header{
+    background-image: url(../images/principal01.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+}
